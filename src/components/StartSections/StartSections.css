@@ -1,0 +1,82 @@
+.StartSections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: center;
+}
+
+.TopContainer {
+    border: 2px solid var(--black);
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: var(--white);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+
+}
+
+.StartSections h2 {
+    font-family: serif, "Raleway";
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 130%;
+    color: var(--primary-dark);
+
+}
+
+.StartSections p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--medium-gray);
+
+
+}
+
+@media (max-width:1440px) {
+    .StartSections {
+        gap: 14px;
+        padding-left: 200px;
+        padding-right: 200px;
+
+    }
+
+    .TopContainer {
+        border-radius: 6px;
+        padding: 8px 14px;
+        font-size: 16px;
+
+    }
+
+    .StartSections h2 {
+        font-size: 48px;
+    }
+
+    .StartSections p {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:900px) {
+    .StartSections {
+        gap: 10px;
+        padding: 0px;
+
+    }
+
+    .TopContainer {
+        font-size: 14px;
+
+    }
+
+    .StartSections h2 {
+        font-size: 38px;
+    }
+
+}

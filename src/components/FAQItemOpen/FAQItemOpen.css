@@ -1,0 +1,146 @@
+.FAQItemOpen {
+    width: 771px;
+    border-radius: 12px;
+    border: 2px solid var(--dark-gray);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    transition: all 0.3s ease;
+
+}
+
+.FAQItemOpen.open {
+    padding: 40px;
+    background-color: var(--white);
+}
+
+.FAQItemOpen.closed {
+    padding: 34px 40px;
+    background-color: var(--CreamBlush);
+}
+
+.FAQLeftSide {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.FAQLeftSide h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    color: var(--dark-gray);
+
+}
+
+.In-Small-Screen {
+    display: none !important;
+}
+
+.FAQLeftSide .FAQLine {
+    width: 100%;
+    border: 2px solid var(--dark-gray);
+}
+
+.FAQAnswer {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--medium-gray);
+
+}
+
+.FAQIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    border: 2px solid var(--dark-gray);
+    padding: 8px;
+    background-color: var(--soft-cream);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.FAQIcon img {
+    width: 24px;
+}
+
+@media (max-width:1600px) {
+    .FAQItemOpen {
+        width: 620px;
+        border-radius: 10px;
+        gap: 24px;
+    }
+
+    .FAQItemOpen.open {
+        padding: 34px 30px;
+    }
+
+    .FAQItemOpen.closed {
+        padding: 24px 30px;
+    }
+
+    .FAQLeftSide {
+        gap: 20px;
+    }
+
+    .FAQLeftSide h2 {
+        font-size: 18px;
+    }
+
+    .FAQAnswer {
+        font-size: 16px;
+    }
+
+    .FAQIcon {
+        width: 32px;
+        height: 32px;
+        border-radius: 4px;
+        padding: 6px;
+
+    }
+
+    .FAQIcon img {
+        width: 20px;
+    }
+}
+
+@media (max-width:1400px) {
+    .FAQItemOpen {
+        width: 358px;
+    }
+
+    .FAQItemOpen.open {
+        padding: 30px 24px;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .FAQItemOpen.closed {
+        padding: 20px 24px;
+    }
+
+    .TitleContainerFAQ {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .FAQLeftSide {
+        gap: 24px;
+    }
+
+    .In-Big-Screen {
+        display: none;
+    }
+
+    .In-Small-Screen {
+        display: block !important;
+       
+    }
+}

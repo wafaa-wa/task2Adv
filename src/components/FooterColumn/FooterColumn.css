@@ -1,0 +1,42 @@
+.FooterColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+
+}
+
+.FooterColumn h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--dark-gray);
+}
+
+.FooterColumn ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+}
+
+.FooterColumn ul li {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--medium-gray);
+
+}
+@media (max-width:1440px) {
+    .FooterColumn {
+        gap: 20px;
+    }
+    .FooterColumn h3{
+        font-size: 16px;
+
+    }
+    .FooterColumn ul li {
+        font-size: 16px;
+    }
+}

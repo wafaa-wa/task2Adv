@@ -1,0 +1,53 @@
+.FooterCard {
+    width: 100%;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.FooterCard button {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    border: 2px solid var(--dark-gray);
+    background-color: var(--soft-cream);
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.FooterCard button img {
+    width: 24px;
+}
+
+.FooterCard a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--dark-gray);
+
+}
+@media (max-width:1440px) {
+    .FooterCard {
+        gap: 8px;
+    }
+    .FooterCard button {
+        width: 32px;
+        height: 32px;
+        border-radius: 4px;
+        padding: 6px;
+    
+    }
+    
+    .FooterCard button img {
+        width: 20px;
+    }
+    .FooterCard a {
+        font-size: 16px;
+    }
+}

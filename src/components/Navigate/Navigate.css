@@ -1,0 +1,52 @@
+.Navigate {
+    margin-top: 200px;
+    margin-left: 8.44%;
+    margin-right: 8.44%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
+
+.AllNavigateCards {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.RowNavigateCard {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+@media (max-width:1440px) {
+    .Navigate {
+        margin-top: 150px;
+        margin-left: 5.56%;
+        margin-right: 5.56%;
+        gap: 80px;
+    }
+    .AllNavigateCards {
+        gap: 40px; 
+    }
+    .RowNavigateCard {
+        gap: 40px;
+    }
+}
+@media (max-width:1200px) {
+    .Navigate {
+        margin-top: 80px;
+        margin-left: 4.1%;
+        margin-right: 4.1%;
+        gap: 50px;
+    }
+    .AllNavigateCards {
+        gap: 40px;
+        align-items: center;
+    }
+    .RowNavigateCard {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+}

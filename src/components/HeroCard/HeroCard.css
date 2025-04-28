@@ -1,0 +1,64 @@
+.HeroCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 32.03%;
+
+}
+
+.HeroCard p:nth-child(1) {
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 150%;
+    color: var(--dark-gray);
+
+}
+
+.HeroCard p:nth-child(2) {
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--dark-gray);
+
+}
+
+@media (max-width:1650px) {
+    .HeroCard {
+        width: 171.67px;
+    }
+
+    .HeroCard p:nth-child(1) {
+        font-size: 34px;
+    }
+
+    .HeroCard p:nth-child(2) {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:1350px) {
+
+
+    .HeroCard p:nth-child(1) {
+        font-size: 26px;
+    }
+
+    .HeroCard p:nth-child(2) {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:900px) {
+    .HeroCard {
+        align-items: center;
+    }
+
+    .HeroCard p:nth-child(1) {
+        font-size: 34px;
+    }
+
+    .HeroCard p:nth-child(2) {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,247 @@
+.Footer {
+    margin-left: 2.6%;
+    margin-right: 2.6%;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    border-radius: 12px;
+    border: 2px solid var(--dark-gray);
+    background-color: var(--white);
+    padding: 100px 113px 40px 113px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    box-shadow: 6px 6px 0px 2px var(--charcoal);
+
+}
+
+.Footer-Top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.Footer-Top-Left {
+    width: 519px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Footer-Top-Left1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Footer-Top-Left1 img {
+    width: 228.37px;
+}
+
+.Footer-Top-Left1 p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--text-muted);
+
+}
+
+.Footer-Top-Left2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.Footer-Top-Right {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.Footer-Bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Footer-Bottom1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.Footer-Bottom1-Left {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.Footer-Bottom1-Left p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--medium-gray);
+}
+
+.Foter-Line {
+    height: 27px;
+    border: 2px solid var(--dark-gray);
+
+}
+
+.Footer-Bottom1-Right {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+.Footer-Bottom1-Right button {
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    border: 2px solid var(--dark-gray);
+    background-color: var(--light-orange);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Footer-Bottom1-Right button img {
+    width: 24px;
+}
+
+.Footer-Line-Big {
+    width: 100%;
+    border: 1px solid var(--dark-gray);
+
+}
+
+.Footer-End {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--gray);
+}
+
+@media (max-width:1440px) {
+    .Footer {
+        margin-top: 150px;
+        margin-bottom: 40px;
+        padding: 80px 80px 40px 80px;
+        gap: 40px;
+        box-shadow: 6px 6px 0px 2px var(--charcoal);
+
+    }
+
+    .Footer-Top-Left {
+        width: 393px;
+        gap: 40px;
+
+    }
+
+    .Footer-Top-Left1 {
+        gap: 16px;
+        align-items: center;
+    }
+
+    .Footer-Top-Left1 img {
+        width: 182.69px;
+    }
+
+    .Footer-Top-Left1 p {
+        font-size: 16px;
+    }
+
+    .Footer-Top-Left2 {
+        gap: 20px;
+    }
+
+    .Footer-Top-Right {
+        gap: 20px;
+    }
+
+    .Footer-Bottom {
+        gap: 20px;
+    }
+
+    .Footer-Bottom1-Left p {
+        font-size: 16px;
+
+    }
+
+    .Foter-Line {
+        height: 24px;
+    }
+
+    .Footer-Bottom1-Right button {
+        width: 48px;
+        height: 48px;
+        border-radius: 6px;
+        padding: 14px;
+
+    }
+
+    .Footer-Bottom1-Right button img {
+        width: 20px;
+    }
+
+    .Footer-End {
+        font-size: 16px;
+    }
+}
+@media (max-width:900px) {
+    .Footer {
+        margin-top: 80px;
+        margin-bottom: 20px;
+        padding: 60px 30px 30px 30px;
+        gap: 30px;
+        box-shadow: 6px 6px 0px 1px var(--charcoal);
+        
+    }
+    .Footer-Top {
+        gap: 40px;
+        flex-direction: column;
+    }
+    .Footer-Top-Left1 {
+        text-align: center;
+    }
+    .Footer-Top-Right {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .Footer-Bottom {
+        gap: 16px;
+    }
+    .Footer-Bottom1 {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .Footer-Bottom1-Left{
+        gap: 6px;
+    }
+    .Footer-Bottom1-Left p {
+        font-size: 14px;
+
+    }
+    .Footer-Bottom1-Right {
+        gap: 10px;
+    }
+    .Footer-Bottom1-Right button {
+        width: 44px;
+        height: 44px;
+
+
+    }
+
+
+    .Footer-End {
+        font-size: 14px;
+    }
+
+}

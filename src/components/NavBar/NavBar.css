@@ -1,0 +1,424 @@
+.NavBar {
+    width: 94.73%;
+    margin: auto;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    
+
+
+}
+
+.NavBar-Top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid var(--dark-gray);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: var(--light-orange);
+    position: relative;
+    gap: 14px;
+
+
+}
+
+.Abstract-Design-Left1 {
+    width: 224px;
+    position: absolute;
+    left: 0px;
+}
+
+.Abstract-Design-1 {
+    position: absolute;
+    width: 72.35px;
+    top: 0px;
+    left: 28.66%;
+
+}
+
+.Abstract-Design-2 {
+    position: absolute;
+    width: 39.56px;
+    bottom: 0px;
+    left: 66.79%;
+
+}
+
+.Abstract-Design-Right1 {
+    width: 224px;
+    position: absolute;
+    right: 0px;
+
+}
+
+.NavBar-Top p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--dark-gray);
+
+
+}
+
+.Abstract-Design-Left2,
+.Abstract-Design-Left3,
+.Abstract-Design-Right2,
+.Abstract-Design-Right3,
+.Abstract-Design-3,
+.Abstract-Design-4,
+.Abstract-Design-5,
+.Abstract-Design-6 {
+    display: none;
+}
+
+
+.NavBar-Top .Icon {
+    width: 30px;
+}
+
+.NavBar-Bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid var(--dark-gray);
+    border-radius: 12px;
+    background-color: var(--white);
+
+
+    .Logo-Container {
+        border-width: 0px 2px 0px 2px;
+        border-style: solid;
+        border-color: var(--dark-gray);
+        border-radius: 12px 0px 0px 12px;
+        background-color: var(--orange);
+        padding: 20px 24px;
+
+
+
+    }
+
+    .Logo {
+        width: 182.69px;
+    }
+
+    .Menu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+
+
+        button {
+            border-width: 0px 2px 0px 2px;
+            border-style: solid;
+            border-color: var(--dark-gray);
+            padding: 26px 34px;
+            background-color: var(--white);
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            color: var(--dark-gray);
+
+
+
+        }
+
+
+    }
+
+
+}
+
+
+
+.Menu button.active {
+    background-color: var(--CreamBlush);
+
+}
+
+.Menu-Toggle {
+    border-width: 0px 2px 0px 2px;
+    border-style: solid;
+    border-color: var(--dark-gray);
+    border-radius: 0px 8px 8px 0px;
+    padding: 16px 30px;
+    background-color: var(--CreamBlush);
+    cursor: pointer;
+    display: none;
+}
+
+.Menu-Toggle img {
+    width: 28px;
+}
+
+
+
+@media (max-width:1440px) {
+    .NavBar {
+        width: 93%;
+        margin-top: 16px;
+    }
+
+    .NavBar-Top {
+        border-radius: 6px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+
+
+    }
+
+    .Abstract-Design-Left1,
+    .Abstract-Design-Left3,
+    .Abstract-Design-Right1,
+    .Abstract-Design-Right3,
+    .Abstract-Design-1,
+    .Abstract-Design-2,
+    .Abstract-Design-5,
+    .Abstract-Design-6 {
+        display: none;
+    }
+
+    .Abstract-Design-Left2,
+    .Abstract-Design-Right2,
+    .Abstract-Design-3,
+    .Abstract-Design-4 {
+        display: block;
+    }
+
+    .Abstract-Design-Left2 {
+        width: 180px;
+        position: absolute;
+        left: 0px;
+    }
+
+    .Abstract-Design-3 {
+        position: absolute;
+        width: 50.37px;
+        top: 0px;
+        left: 21.83%;
+
+    }
+
+    .Abstract-Design-4 {
+        position: absolute;
+        width: 32.56px;
+        bottom: 0px;
+        left: 73.06%;
+
+    }
+
+    .Abstract-Design-Right2 {
+        width: 180px;
+        position: absolute;
+        right: 0px;
+
+    }
+
+    .NavBar-Top p {
+        font-size: 16px;
+
+    }
+
+    .NavBar-Top .Icon {
+        width: 14.4px;
+    }
+
+    .NavBar-Bottom {
+        border-radius: 8px;
+
+        .Logo-Container {
+            border-radius: 8px 0px 0px 8px;
+            padding: 16px 20px;
+
+
+        }
+
+        .Logo {
+            width: 155.29px;
+        }
+
+        .Menu {
+
+            button {
+                padding: 22px 30px;
+                font-size: 16px;
+
+
+            }
+
+
+        }
+
+    }
+
+    .Menu li:last-child button {
+        border-radius: 0px 8px 8px 0px;
+
+    }
+
+
+}
+
+@media (max-width:1200px) {
+    .NavBar-Bottom {
+        .Logo-Container {
+            padding: 16px 10px;
+
+
+        }
+
+        .Logo {
+            width: 135px;
+        }
+
+        .Menu {
+
+            button {
+                padding: 22px 20px;
+                font-size: 14px;
+
+
+            }
+        }
+
+    }
+
+
+}
+
+@media (max-width:779px) {
+    .NavBar {
+        width: 91.54%;
+        margin-top: 40px;
+    }
+
+    .NavBar-Top {
+        border-radius: 6px;
+        gap: 10px;
+
+
+
+    }
+
+    .Abstract-Design-Left1,
+    .Abstract-Design-Left2,
+    .Abstract-Design-Right1,
+    .Abstract-Design-Right2,
+    .Abstract-Design-1,
+    .Abstract-Design-2,
+    .Abstract-Design-3,
+    .Abstract-Design-4 {
+        display: none;
+    }
+
+    .Abstract-Design-Left3,
+    .Abstract-Design-Right3,
+    .Abstract-Design-5,
+    .Abstract-Design-6 {
+        display: block;
+    }
+
+    .Abstract-Design-Left3 {
+        position: absolute;
+        left: 0px;
+    }
+
+    .Abstract-Design-5 {
+        position: absolute;
+        width: 32.56px;
+        top: 0px;
+        left: 0px;
+
+    }
+
+    .Abstract-Design-6 {
+        position: absolute;
+        width: 28.9px;
+        bottom: 0px;
+        right: 0px;
+
+    }
+
+    .Abstract-Design-Right3 {
+        width: 50px;
+        position: absolute;
+        right: 0px;
+
+    }
+
+    .NavBar-Top p {
+        font-size: 14px;
+
+    }
+
+    .NavBar-Top .Icon {
+        width: 20px;
+    }
+
+    .Menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 140px;
+        right: 50px;
+        padding: 15px;
+        border-radius: 8px !;
+        z-index: 1000;
+
+    }
+
+    .Menu li {
+        width: 150px;
+    }
+
+    .Menu .Nav-Button {
+        width: 100%;
+        border-bottom: 1px solid var(--dark-gray) !important;
+        border-radius: 0px !important;
+
+    }
+
+    .Menu.closed {
+        display: none !important;
+    }
+
+    .Menu.open {
+        display: block;
+    }
+
+    .Menu-Toggle {
+        display: block;
+        position: relative;
+    }
+
+    .Menu {
+        display: none;
+    }
+
+    .Menu button.active {
+        background-color: var(--light-orange);
+
+    }
+
+}
+
+@media (min-width:779px) {
+    .Menu-Toggle {
+        display: none;
+    }
+
+    .Menu li:last-child button {
+        border-radius: 0px 12px 12px 0px !;
+        background-color: var(--peachy-glow);
+
+    }
+
+
+}

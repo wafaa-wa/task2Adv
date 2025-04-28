@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif ,"Outfit";
+ 
+}
+:root {
+  --dark-gray:#262626;
+  --light-orange:#FFDECC;
+  --white:#FFFFFF;
+  --orange:#FF8D4D;
+  --peachy-glow:#FFAE80;
+  --CreamBlush:#FFEFE5;
+  --primary-dark:#1A1A1A;
+  --medium-gray:#333333;
+  --warm-sunset:#FFBE99;
+  --black:#000000;
+  --text-muted:#4C4C4D;
+  --soft-cream:#FFF5F0;
+  --charcoal:#1E1E1E;
+  --gray:#656567;
+  background-color: var(--soft-cream);
+}
+
+
+

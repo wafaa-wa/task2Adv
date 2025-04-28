@@ -1,0 +1,57 @@
+.FAQ {
+    margin-top: 200px;
+    margin-left: 8.44%;
+    margin-right: 8.44%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.Accordion {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.Accordion-Side {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media (max-width:1600px) {
+    .FAQ {
+        margin-top: 150px;
+        margin-left: 5.56%;
+        margin-right: 5.56%;
+        gap: 80px;
+    }
+
+    .Accordion {
+        gap: 40px;
+    }
+
+    .Accordion-Side {
+        gap: 24px;
+    }
+}
+
+@media (max-width:1400px) {
+    .FAQ {
+        margin-top: 80px;
+        margin-left: 4.1%;
+        margin-right: 4.1%;
+        gap: 50px;
+    }
+
+    .Accordion {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Accordion-Side {
+        gap: 20px;
+    }
+
+}

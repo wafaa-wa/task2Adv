@@ -1,0 +1,152 @@
+.NavigateCard {
+    width: 773px;
+    padding: 80px;
+    border: 2px solid var(--dark-gray);
+    border-radius: 12px;
+    background-color: var(--white);
+    box-shadow: 6px 6px 0px 2px var(--charcoal);
+
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.NavigateCard-Top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.NavigateCard-Top1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.NavigateCard-Top1 h2 {
+    font-family: serif, "Raleway";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    color: var(--primary-dark);
+
+
+}
+
+.NavigateCard-Top1 img {
+    width: 100%;
+}
+
+.NavigateCard-Top p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--text-muted);
+
+}
+
+.NavigateCard button {
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 10px;
+    border: 2px solid var(--dark-gray);
+    background-color: var(--light-orange);
+    box-shadow: 4px 4px 0px 2px var(--charcoal);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--medium-gray);
+
+
+}
+
+.NavigateCard button img {
+    width: 30px;
+}
+
+@media (max-width:1440px) {
+    .NavigateCard {
+        width: 620px;
+        border-radius: 10px;
+        padding: 60px;
+        gap: 60px;
+        box-shadow: 4px 4px 0px 2px var(--charcoal);
+
+    }
+
+    .NavigateCard-Top {
+        gap: 40px;
+    }
+
+    .NavigateCard-Top1 {
+        gap: 24px;
+    }
+
+    .NavigateCard-Top1 h2 {
+        font-size: 34px;
+    }
+
+    .NavigateCard-Top p {
+        font-size: 16px;
+    }
+
+    .NavigateCard button {
+        border-radius: 8px;
+        font-size: 18px;
+        box-shadow: 2px 2px 0px 2px var(--charcoal);
+
+
+
+    }
+
+    .NavigateCard button img {
+        width: 24px;
+    }
+
+
+}
+
+@media (max-width:1200px) {
+    .NavigateCard {
+        width: 358px;
+        padding: 40px;
+        gap: 40px;
+        box-shadow: 4px 4px 0px 1px var(--charcoal);
+
+    }
+
+    .NavigateCard-Top {
+        gap: 30px;
+    }
+
+    .NavigateCard-Top1 {
+        gap: 20px;
+    }
+
+    .NavigateCard-Top1 h2 {
+        font-size: 28px;
+    }
+
+    .NavigateCard button {
+        border-radius: 6px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-size: 16px;
+        box-shadow: 2px 2px 0px 1px var(--charcoal);
+
+    }
+
+    .NavigateCard button img {
+        width: 20px;
+    }
+
+}
