@@ -46,6 +46,10 @@
 
 }
 
+.MobileFooter {
+    display: none !important;
+}
+
 .Footer-Top-Left2 {
     display: flex;
     flex-direction: column;
@@ -131,6 +135,8 @@
 @media (max-width:1440px) {
     .Footer {
         margin-top: 150px;
+        margin-left: 4.1%;
+        margin-right: 4.1%;
         margin-bottom: 40px;
         padding: 80px 80px 40px 80px;
         gap: 40px;
@@ -139,14 +145,14 @@
     }
 
     .Footer-Top-Left {
-        width: 393px;
+        max-width: 393px;
         gap: 40px;
 
     }
 
     .Footer-Top-Left1 {
         gap: 16px;
-        align-items: center;
+
     }
 
     .Footer-Top-Left1 img {
@@ -194,6 +200,7 @@
         font-size: 16px;
     }
 }
+
 @media (max-width:900px) {
     .Footer {
         margin-top: 80px;
@@ -201,37 +208,43 @@
         padding: 60px 30px 30px 30px;
         gap: 30px;
         box-shadow: 6px 6px 0px 1px var(--charcoal);
-        
+
     }
+
     .Footer-Top {
         gap: 40px;
         flex-direction: column;
     }
-    .Footer-Top-Left1 {
-        text-align: center;
+
+    .Footer-Top-Left {
+        width: 100%;
     }
-    .Footer-Top-Right {
-        gap: 30px;
-        flex-wrap: wrap;
-    }
+
+
+
     .Footer-Bottom {
         gap: 16px;
     }
+
     .Footer-Bottom1 {
         flex-direction: column;
         gap: 20px;
         align-items: center;
     }
-    .Footer-Bottom1-Left{
+
+    .Footer-Bottom1-Left {
         gap: 6px;
     }
+
     .Footer-Bottom1-Left p {
         font-size: 14px;
 
     }
+
     .Footer-Bottom1-Right {
         gap: 10px;
     }
+
     .Footer-Bottom1-Right button {
         width: 44px;
         height: 44px;
@@ -242,6 +255,34 @@
 
     .Footer-End {
         font-size: 14px;
+    }
+
+}
+
+@media (max-width:500px) {
+    .Footer-Top-Left1 {
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .LaptopFootr {
+        display: none !important;
+    }
+
+    .MobileFooter {
+        display: flex !important;
+    }
+
+    .Footer-Top-Right {
+        gap: 30px;
+        flex-direction: row !important;
+    }
+
+    .Mobile-Column {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
     }
 
 }

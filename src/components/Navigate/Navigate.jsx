@@ -5,7 +5,7 @@ import './Navigate.css'
 
 export default function Navigate() {
     return (
-        <div className='Navigate'>
+        <div className='Navigate container'>
             <StartSections
                 TopText="Explore More"
                 Title="Navigate through our Pages"

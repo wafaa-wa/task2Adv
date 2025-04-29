@@ -1,5 +1,5 @@
 .FAQItemOpen {
-    width: 771px;
+    max-width: 771px;
     border-radius: 12px;
     border: 2px solid var(--dark-gray);
     display: flex;
@@ -72,7 +72,7 @@
 
 @media (max-width:1600px) {
     .FAQItemOpen {
-        width: 620px;
+        max-width: 620px;
         border-radius: 10px;
         gap: 24px;
     }
@@ -112,7 +112,7 @@
 
 @media (max-width:1400px) {
     .FAQItemOpen {
-        width: 358px;
+        max-width:  358px;
     }
 
     .FAQItemOpen.open {

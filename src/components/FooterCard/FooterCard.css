@@ -32,21 +32,24 @@
     color: var(--dark-gray);
 
 }
+
 @media (max-width:1440px) {
     .FooterCard {
         gap: 8px;
     }
+
     .FooterCard button {
         width: 32px;
         height: 32px;
         border-radius: 4px;
         padding: 6px;
-    
+
     }
-    
+
     .FooterCard button img {
         width: 20px;
     }
+
     .FooterCard a {
         font-size: 16px;
     }

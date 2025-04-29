@@ -28,14 +28,17 @@
     color: var(--medium-gray);
 
 }
+
 @media (max-width:1440px) {
     .FooterColumn {
         gap: 20px;
     }
-    .FooterColumn h3{
+
+    .FooterColumn h3 {
         font-size: 16px;
 
     }
+
     .FooterColumn ul li {
         font-size: 16px;
     }

@@ -1,12 +1,13 @@
 .NavBar {
-    width: 94.73%;
-    margin: auto;
+    max-width: 1819px;
+    margin-left: 2.6%;
+    margin-right: 2.66%;
     margin-top: 18px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 14px;
-    
+
 
 
 }
@@ -136,8 +137,6 @@
 
 }
 
-
-
 .Menu button.active {
     background-color: var(--CreamBlush);
 
@@ -162,7 +161,7 @@
 
 @media (max-width:1440px) {
     .NavBar {
-        width: 93%;
+        max-width: 1339px;
         margin-top: 16px;
     }
 

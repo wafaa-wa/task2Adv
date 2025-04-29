@@ -3,7 +3,7 @@ import FooterCard from '../FooterCard/FooterCard'
 import FooterColumn from '../FooterColumn/FooterColumn'
 import './Footer.css'
 
-export default function Footer({ FooterLogo, UnderLogo, text1,text2, text3 }) {
+export default function Footer({ FooterLogo, UnderLogo, text1, text2, text3 }) {
     return (
         <div className='Footer'>
             <div className='Footer-Top'>
@@ -21,8 +21,9 @@ export default function Footer({ FooterLogo, UnderLogo, text1,text2, text3 }) {
 
                         ))}
                     </div>
+
                 </div>
-                <div className='Footer-Top-Right'>
+                <div className='Footer-Top-Right LaptopFootr'>
                     {FooterColumnData.map((column, index) => (
                         <FooterColumn
                             key={index}
@@ -30,6 +31,27 @@ export default function Footer({ FooterLogo, UnderLogo, text1,text2, text3 }) {
                             links={column.links}
                         />
                     ))}
+
+                </div>
+                <div className='Footer-Top-Right MobileFooter'>
+                    <div className='Mobile-Column'>
+                        {FooterColumnData.slice(0, 2).map((column, index) => (
+                            <FooterColumn
+                                key={index}
+                                ColumnTitle={column.ColumnTitle}
+                                links={column.links}
+                            />
+                        ))}
+                    </div>
+                    <div className='Mobile-Column'>
+                        {FooterColumnData.slice(2, 4).map((column, index) => (
+                            <FooterColumn
+                                key={index}
+                                ColumnTitle={column.ColumnTitle}
+                                links={column.links}
+                            />
+                        ))}
+                    </div>
 
                 </div>
 
@@ -53,7 +75,7 @@ export default function Footer({ FooterLogo, UnderLogo, text1,text2, text3 }) {
                 </div>
                 <div className='Footer-Line-Big'></div>
                 <p className='Footer-End'>Copyright © [2023] Little Learners Academy. All rights reserved.</p>
-                
+
 
             </div>
         </div>

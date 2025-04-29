@@ -5,7 +5,7 @@ import './Benefits.css'
 
 export default function Benefits() {
     return (
-        <div className='Benefits'>
+        <div className='Benefits container'>
             <StartSections
                 TopText="Children Deserve Bright Future"
                 Title="Our Benefits"

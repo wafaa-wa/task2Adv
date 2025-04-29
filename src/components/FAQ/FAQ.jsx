@@ -10,7 +10,7 @@ export default function FAQ() {
         setOpenIndex(openIndex === index ? null : index);
     };
     return (
-        <div className='FAQ'>
+        <div className='FAQ container'>
             <StartSections
                 TopText="Solutions For The Doubts"
                 Title="Frequently Asked Questions"

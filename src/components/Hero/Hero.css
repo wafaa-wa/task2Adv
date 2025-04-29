@@ -11,12 +11,11 @@
 }
 
 .HeroImage {
-    width: 48.11%;
-    height: 100%;
+    max-width: 756px;
 }
 
 .HeroRightSid {
-    width: 48.11%;
+    max-width: 756px;
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -96,7 +95,7 @@
     }
 
     .HeroImage {
-        width: 48.05%;
+        max-width: 615px;
     }
 
     .HeroRightSid {
@@ -133,13 +132,17 @@
     }
 }
 
-@media (max-width:1080px) {
-    .RightSide-Bottom {
-        flex-wrap: wrap;
+@media (min-width:667px) and (max-width:1350px) {
+    .HeroRightSid {
+        align-items: center;
     }
+    .RightSide-Bottom {
+        width: 50%;
+    }
+
 }
 
-@media (max-width:900px) {
+@media (max-width:1350px) {
     .Hero {
         margin-left: 4.10%;
         margin-right: 4.10%;
@@ -188,6 +191,7 @@
         align-items: center;
         gap: 20px;
         box-shadow: 4px 4px 0px 1px var(--warm-sunset);
+        flex-wrap: wrap;
 
 
     }
@@ -201,9 +205,5 @@
     }
 
 }
-@media (min-width:1800px) {
-    .Hero {
-        height: calc(100vh - 260.52px);
-    }
 
-}
+

@@ -34,7 +34,7 @@ export default function Testimonials() {
         );
     };
     return (
-        <div className='Testimonials'>
+        <div className='Testimonials container'>
             <StartSections
                 TopText="Their Happy Words 🤗"
                 Title="Our Testimonials"
@@ -43,7 +43,7 @@ export default function Testimonials() {
 
             />
             <div className='SliderContainer'>
-                <button className="nav-button prev" onClick={prevSlide}><img src="/assest/images/Testimonials/Icon (11).png" /></button>
+                <button className="prev" onClick={prevSlide}><img src="/assest/images/Testimonials/Icon (11).png" /></button>
                 <div className="slide">
                     {slides[currentIndex].map((card, index) => (
                         <SliderCard
@@ -55,7 +55,7 @@ export default function Testimonials() {
                         />
                     ))}
                 </div>
-                <button className="nav-button next" onClick={nextSlide}><img src="/assest/images/Testimonials/Icon (12).png" /></button>
+                <button className="next" onClick={nextSlide}><img src="/assest/images/Testimonials/Icon (12).png" /></button>
 
             </div>
             <div className="slider-container1">
@@ -68,8 +68,8 @@ export default function Testimonials() {
                     />
                 </div>
                 <div className='SliderButtons'>
-                    <button className="nav-button prev" onClick={prevCard}><img src="/assest/images/Testimonials/Icon (11).png" /></button>
-                    <button className="nav-button next" onClick={nextCard}><img src="/assest/images/Testimonials/Icon (12).png" /></button>
+                    <button className="prev" onClick={prevCard}><img src="/assest/images/Testimonials/Icon (11).png" /></button>
+                    <button className="next" onClick={nextCard}><img src="/assest/images/Testimonials/Icon (12).png" /></button>
 
                 </div>
 
