@@ -162,7 +162,7 @@
 @media (max-width:1440px) {
     .NavBar {
         max-width: 1339px;
-        margin-top: 16px;
+        top: 16px;
     }
 
     .NavBar-Top {
@@ -295,7 +295,7 @@
 @media (max-width:779px) {
     .NavBar {
         width: 91.54%;
-        margin-top: 40px;
+        top: 40px;
     }
 
     .NavBar-Top {

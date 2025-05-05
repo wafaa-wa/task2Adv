@@ -23,6 +23,7 @@ export default function Benefits() {
                             IconCard={data.IconCard}
                             CardTitle={data.CardTitle}
                             CardDescription={data.CardDescription}
+                            X={data.X}
                         />
                     ))}
                 </div>
@@ -33,6 +34,7 @@ export default function Benefits() {
                             IconCard={data.IconCard}
                             CardTitle={data.CardTitle}
                             CardDescription={data.CardDescription}
+                            X={data.X}
                         />
                     ))}
                 </div>

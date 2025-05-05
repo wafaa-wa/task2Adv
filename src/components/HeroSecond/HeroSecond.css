@@ -1,0 +1,143 @@
+.HeroSecond {
+    margin-top: 60px;
+    margin-left: 2.6%;
+    margin-right: 2.6%;
+    border-radius: 12px;
+    border: 2px solid var(--dark-gray);
+    background-color: var(--white);
+    box-shadow: 8px 8px 0px 1px var(--charcoal);
+    padding: 150px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+
+}
+
+.HeroSecond img {
+    width: 200px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.Hero2LeftSide {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    gap: 14px;
+}
+
+.Hero2LeftSide p {
+    border-radius: 8px;
+    border: 2px solid var(--dark-gray);
+    padding: 10px 20px;
+    background-color: var(--white);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--medium-gray);
+    width: fit-content;
+
+
+}
+
+.Hero2LeftSide h2 {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    color: var(--priamry-dark);
+
+}
+
+.Hero2RightSideText {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--medium-gray);
+    width: 50%;
+
+}
+
+@media (max-width:1440px) {
+    .HeroSecond {
+        margin-top: 40px;
+        margin-left: 4.17%;
+        margin-right: 4.17%;
+        border-radius: 10px;
+        box-shadow: 6px 6px 0px 1px var(--charcoal);
+        padding: 100px 80px;
+        
+        
+
+    }
+
+    .HeroSecond img {
+        width: 137px;
+    }
+
+    .Hero2LeftSide {
+        gap: 10px;
+
+    }
+
+    .Hero2LeftSide p {
+        border-radius: 6px;
+        padding: 8px 16px;
+        font-size: 16px;
+
+    }
+
+    .Hero2LeftSide h2 {
+        font-size: 38px;
+    }
+
+    .Hero2RightSideText {
+        font-size: 16px;
+    }
+
+
+}
+
+@media (max-width:992px) {
+    .HeroSecond {
+        margin-left: 0.83%;
+        margin-right: 0.83%;
+        box-shadow: 6px 6px 0px 1px var(--charcoal);
+        padding: 50px 30px;
+        gap: 20px;
+        flex-wrap: wrap;
+
+
+    }
+
+    .HeroSecond img {
+        width: 100px;
+    }
+
+    .Hero2LeftSide {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .Hero2LeftSide p {
+        font-size: 14px;
+        
+
+    }
+
+    .Hero2LeftSide h2 {
+        font-size: 28px;
+    }
+    .Hero2RightSideText {
+        width: 100%;
+        text-align: center;
+    }
+
+
+}

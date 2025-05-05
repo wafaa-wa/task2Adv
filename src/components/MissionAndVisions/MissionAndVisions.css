@@ -1,0 +1,22 @@
+
+.MVCards {
+    display: flex;
+    gap: 60px;
+}
+
+@media (max-width:1440px) {
+    .MVCards {
+        gap: 40px;
+    }
+
+}
+
+@media (max-width:1028px) {
+    .MVCards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+}

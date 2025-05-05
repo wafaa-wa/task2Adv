@@ -1,0 +1,114 @@
+.SliderContainer {
+    display: flex !important;
+    gap: 50px;
+}
+
+.SliderContainer.bottom {
+    flex-direction: column;
+}
+
+.SliderContainer.side {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slide {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.SmallMedia {
+    display: none !important;
+
+}
+
+.BigMedia {
+    display: block !important;
+
+}
+
+.prev,
+.next {
+    width: 58px;
+    height: 58px;
+    border-radius: 8px;
+    border: 2px solid var(--medium-gray);
+    background-color: var(--white);
+    padding: 14px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.SliderContainer button img {
+    width: 30px;
+}
+
+.SliderButtons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.SliderButtons p {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 130%;
+    color: var(--priamry-dark);
+
+}
+
+.ButtonBottom {
+    display: flex;
+    gap: 20px;
+}
+
+
+@media (max-width:1750px) {
+
+    .SliderContainer,
+    .slide {
+        gap: 40px;
+    }
+
+    .prev,
+    .next {
+        width: 48px;
+        height: 48px;
+        padding: 12px;
+
+    }
+
+    .SliderContainer button img {
+        width: 24px;
+    }
+
+
+}
+
+@media (max-width:992px) {
+    .SmallMedia {
+        display: flex !important;
+        gap: 20px;
+
+    }
+
+    .BigMedia {
+        display: none !important;
+
+    }
+
+    .SliderContainer.side {
+        flex-direction: column;
+    }
+
+}

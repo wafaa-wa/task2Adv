@@ -1,10 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Hero from '../../components/Hero/Hero'
-import Benefits from '../../components/Benefits/Benefits'
-import Testimonials from '../../components/Testimonials/Testimonials'
-import Navigate from '../../components/Navigate/Navigate'
-import FAQ from '../../components/FAQ/FAQ'
+import HomeFather from '../../components/HomeFather/HomeFather'
 
 export default function Home() {
   return (
@@ -20,10 +17,8 @@ export default function Home() {
 
 
       />
-      <Benefits />
-      <Testimonials />
-      <FAQ />
-      <Navigate />
+      <HomeFather />
+
 
     </div>
   )

@@ -1,0 +1,95 @@
+.MissionAndVisionCard {
+    width: 768px;
+    border-radius: 12px;
+    border: 2px solid var(--dark-gray);
+    background-color: var(--white);
+    box-shadow: 6px 6px 0px 2px var(--charcoal);
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+
+}
+
+.MVTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.MVTop h3 {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    color: var(--priamry-dark);
+
+}
+.MVTop img {
+    height: 80px;
+
+}
+
+.MVText {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--medium-gray);
+
+}
+
+@media (max-width:1440px) {
+    .MissionAndVisionCard {
+        width: 620px;
+
+        border-radius: 10px;
+        box-shadow: 4px 4px 0px 2px var(--charcoal);
+        padding: 50px;
+        gap: 50px;
+
+    }
+
+
+    .MVTop h3 {
+        font-size: 38px;
+    }
+    .MVTop img {
+        height: 60px;
+    
+    }
+
+    .MVText {
+
+        font-size: 16px;
+
+
+    }
+
+}
+
+@media (max-width:1028px) {
+    .MissionAndVisionCard {
+        width: 358px;
+        min-height: 386px;
+        box-shadow: 4px 4px 0px 1px var(--charcoal);
+        padding: 40px;
+        gap: 40px;
+
+
+    }
+
+
+    .MVTop h3 {
+        font-size: 30px;
+    }
+    .MVTop img {
+        height: 50px;
+    
+    }
+
+
+
+}

@@ -1,5 +1,5 @@
 .SliderCard {
-    max-width:425.33px;
+    max-width: 425.33px;
     border: 2px solid var(--dark-gray);
     border-radius: 12px;
     padding: 50px;
@@ -54,7 +54,7 @@
 
 }
 
-@media (max-width:1777px) {
+@media (max-width:1900px) {
     .SliderCard {
         max-width: 340px;
         border-radius: 10px;
@@ -93,7 +93,7 @@
 
 }
 
-@media (max-width:900px) {
+@media (max-width:1200px) {
     .SliderCard {
         max-width: 358px;
         padding: 30px;

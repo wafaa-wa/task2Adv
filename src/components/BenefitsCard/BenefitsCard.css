@@ -11,6 +11,19 @@
     position: relative;
 
 }
+.SliderAboutCard {
+    width: 505.33px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 12px;
+    border: 2px solid var(--dark-gray);
+    padding: 80px 50px 50px 50px;
+    background-color: var(--white);
+    box-shadow: 6px 6px 0px 2px var(--charcoal);
+    position: relative;
+
+}
 
 .IconContainer {
     width: 74px;
@@ -30,7 +43,7 @@
     width: 34px;
 }
 
-.BenefitsCard h2 {
+.CardTitleB {
     font-family: serif, "Raleway";
     font-weight: 700;
     font-size: 28px;
@@ -39,7 +52,7 @@
 
 }
 
-.BenefitsCard p {
+.CardDescriptionB {
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
@@ -57,6 +70,13 @@
 
 
     }
+    .SliderAboutCard {
+        width: 406.67px;
+        gap: 16px;
+        border-radius: 10px;
+        padding: 60px 40px 40px 40px;
+        box-shadow: 4px 4px 0px 1px var(--charcoal);
+    }
 
     .IconContainer {
         width: 56px;
@@ -70,18 +90,18 @@
         width: 24px;
     }
 
-    .BenefitsCard h2 {
+    .CardTitleB {
         font-size: 24px;
     }
 
-    .BenefitsCard p {
+    .BCardDescriptionB {
         font-size: 16px;
     }
 
 }
 
 @media (max-width:900px) {
-    .BenefitsCard {
+    .BenefitsCard, .SliderAboutCard{
         width: 358px;
         padding: 50px 40px 30px 30px;
         box-shadow: 4px 4px 0px 1px var(--charcoal);
@@ -89,7 +109,7 @@
     }
 
 
-    .BenefitsCard h2 {
+    .CardTitleB {
         font-size: 22px;
     }
 

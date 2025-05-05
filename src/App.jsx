@@ -20,9 +20,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/Academics" element={<Academics />} />
-        <Route path="/Admissions" element={<Admissions />} />
-        <Route path="/StudentLife" element={<StudentLife />} />
+        <Route path="/academics" element={<Academics />} />
+        <Route path="/admissions" element={<Admissions />} />
+        <Route path="/atudentLife" element={<StudentLife />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer FooterLogo={"public/assest/images/Footer/LogoFooter.png"}

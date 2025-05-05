@@ -16,7 +16,7 @@
   --orange: #FF8D4D;
   --peachy-glow: #FFAE80;
   --CreamBlush: #FFEFE5;
-  --primary-dark: #1A1A1A;
+  --priamry-dark: #1A1A1A;
   --medium-gray: #333333;
   --warm-sunset: #FFBE99;
   --black: #000000;
@@ -29,29 +29,41 @@
 
 .container {
   margin-top: 200px;
-  margin-left: 8.44%;
-  margin-right: 8.65%;
   display: flex;
   flex-direction: column;
   gap: 100px;
 }
 
-@media (max-width:1440px) {
+.Pb {
+  padding-left: 8.44%;
+  padding-right: 8.44%;
+}
+
+@media (max-width:1570px) {
 
   .container {
     margin-top: 150px;
-    margin-left: 5.69%;
-    margin-right: 5.69%;
     gap: 80px;
+  }
+
+  .Pb {
+    padding-left: 4.17%;
+    padding-right: 4.17%;
   }
 }
 
 @media (max-width:900px) {
   .container {
     margin-top: 80px;
-    margin-left: 4.10%;
-    margin-right: 4.10%;
     gap: 50px;
 
   }
+}
+
+@media (max-width:992px) {
+  .Pb {
+    padding-left: 0.83%;
+    padding-right: 0.83%;
+  }
+
 }

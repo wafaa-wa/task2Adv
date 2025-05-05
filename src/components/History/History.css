@@ -1,0 +1,51 @@
+.HistoryBottom {
+    border-radius: 12px;
+    border: 2px solid var(--dark-gray);
+    background-color: var(--white);
+    box-shadow: 6px 6px 0px 2px var(--charcoal);
+    padding: 150px;
+}
+
+.HistoryCards {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.HistoryCard:last-child .horizontal-line::after {
+    display: none;
+}
+
+.HistoryCard:first-child .horizontal-line::before {
+    display: none;
+}
+
+
+@media (max-width:1500px) {
+    .HistoryBottom {
+        padding: 100px;
+        box-shadow: 4px 4px 0px 1px var(--charcoal);
+
+    }
+
+    .HistoryCards {
+        gap: 80px;
+    }
+
+}
+
+@media (max-width:1200px) {
+    .HistoryBottom {
+        padding: 50px 20px 50px 10px;
+        box-shadow: 4px 4px 0px 1px var(--charcoal);
+
+
+    }
+
+    .HistoryCards {
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

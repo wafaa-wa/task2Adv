@@ -1,7 +1,7 @@
 .BenefitsCardContainer {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 78px;
 }
 
 .AllBenefitsCard {
@@ -13,15 +13,13 @@
 
 
     .BenefitsCardContainer {
-        gap: 40px;
+        gap: 68px;
     }
 
 }
 
 @media (max-width:1200px) {
-    .BenefitsCardContainer {
-        gap: 68px;
-    }
+
 
     .AllBenefitsCard {
         flex-wrap: wrap;

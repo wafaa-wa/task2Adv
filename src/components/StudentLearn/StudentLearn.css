@@ -1,0 +1,42 @@
+.AllStudentCards {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.StudentCards1 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+@media (min-width:1442px) and (max-width:1919px) {
+    .StudentCards1 {
+        justify-content: center;
+    }
+}
+
+@media (max-width:1919px) {
+
+    .AllStudentCards,
+    .AllStudentCards {
+        gap: 40px;
+    }
+    
+}
+@media (max-width:1430px)  {
+    .AllStudentCards {
+        justify-content: center;
+        align-items: center;
+    }
+    .StudentCards1 {
+        flex-direction: column;
+    }
+    .test .StudentLearnCard:nth-child(2) {
+        display: none;
+    }
+    .test .StudentLearnCard:nth-child(3) {
+        display: none;
+    }
+    
+
+}

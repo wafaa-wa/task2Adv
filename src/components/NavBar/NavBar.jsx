@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 export default function NavBar({ Logo, links }) {
-    const [activeLink, setActiveLink] = useState("");
+    const [activeLink, setActiveLink] = useState("/");
     const [menuOpen, setMenuOpen] = useState(false);
     const toggleMenu = () => setMenuOpen(!menuOpen);
     return (

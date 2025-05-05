@@ -1,0 +1,52 @@
+.GalleryContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 295px;
+}
+
+.FulterBtnContainer {
+    display: flex;
+    gap: 15px;
+}
+
+.FulterBtnContainer button {
+    padding: 14px 20px;
+    border-radius: 8px;
+    border: 2px solid var(--medium-gray);
+    background-color: var(--CreamBlush);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--priamry-dark);
+
+
+}
+
+@media (max-width:1800px) {
+    .GalleryContainer {
+        gap: 212px;
+    }
+
+    .FulterBtnContainer {
+        gap: 10px;
+    }
+
+    .FulterBtnContainer button {
+        padding: 10px 16px;
+        border-radius: 6px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width:1200px) {
+    .FulterBtnContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .GalleryContainer {
+        gap: 197px;
+    }
+
+}
